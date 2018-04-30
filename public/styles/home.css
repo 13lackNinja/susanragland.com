@@ -1,0 +1,50 @@
+/* General */
+
+#home-container {
+  position: relative;
+  margin: auto;
+  width: 55%;
+  min-width: 800px;
+  height: 100%;
+}
+
+/* Art */
+#home-art {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  z-index: -1;
+}
+
+/* Home Menu */
+#home-menu-box {
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  height: 125px;
+  text-align: right;
+  padding-right: 5%;
+  border-right: solid #1f1e1b 15px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin: 2px 0px 0px 0px;
+}
+
+/* Socials */
+#socials {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#instagram-icon {
+  height: 26px;
+  margin-right: 10px;
+}
+
+#mail-icon {
+  height: 26px;
+}

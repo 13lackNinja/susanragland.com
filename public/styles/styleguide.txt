@@ -1,0 +1,7 @@
+off-black: #1f1e1b
+background: #fff
+
+notes:
+background - the color of glue slightly past the exp date
+
+texture - the faintest whisper of paper
