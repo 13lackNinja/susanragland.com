@@ -4,6 +4,11 @@ const express = require('express');
 const router = express.Router();
 
 
+// Middlewear
+
+app.use(express.static('public'));
+
+
 // Routes
 
 // Sendfile options
