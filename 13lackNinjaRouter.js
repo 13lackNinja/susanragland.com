@@ -9,12 +9,14 @@ const router = express.Router();
 router.use(express.static('public'));
 
 
-// Routes
-
 // Sendfile options
+
 const options = {
   root: './public/markup',
 }
+
+
+// Routes
 
 router.get('/', (req, res) => {
   res.sendFile('index.html', options);
@@ -27,5 +29,8 @@ router.get('/gallery', (req, res) => {
 router.get('/about', (req, res) => {
   res.sendFile('about.html', options);
 });
+
+
+// Exports
 
 module.exports = router;
