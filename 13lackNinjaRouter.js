@@ -6,7 +6,7 @@ const router = express.Router();
 
 // Middlewear
 
-app.use(express.static('public'));
+router.use(express.static('public'));
 
 
 // Routes

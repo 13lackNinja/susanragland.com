@@ -9,5 +9,4 @@ const router = require('./13lackNinjaRouter');
 
 app.use('/susanragland', router);
 
-
 app.listen(9010);
